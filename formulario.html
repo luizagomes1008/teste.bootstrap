@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar navbar-expand-lg fundomenu">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="index.html">
                 <img class="logo" src="img/icone.jpg" alt="">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,13 +20,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 minhafonte">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link" href="index.html">Sobre</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Competências</a>
+                    <a class="nav-link" href="index.html">Competências</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -87,57 +87,47 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>
-        
+        </div>
     </section>
-    <div class="container text-center">
-      <div class="row">
-       
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img src="img/ChatGPT Image 17 de set. de 2025, 10_58_53.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Formulário</h5>
-                <p class="card-text">Entre em contato! Preencha o Formulário caso esteja interessado</p>
-                <a href="formulario.html" class="btn btn-primary">Clique Aqui!</a>
-              </div>
-            </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="img/ChatGPT Image 17 de set. de 2025, 10_58_53.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="img/ChatGPT Image 17 de set. de 2025, 10_58_53.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-    <div class="container text-center">
-      <div class="row row-cols-2">
-        <div class="col"><img class= 'fotoli'src="img/IMG_20250818_121606307_HDR.jpg" alt=""></div>
-        <div class="col"><img class= 'fotoli'src="img/IMG_20250818_121606307_HDR.jpg" alt=""></div>
-        <div class="col">alguma coisa</div>
-        <div class="col">alguma coisa</div>
-      </div>
-    </div>
-    
-    <footer>
 
-    </footer>  
+    <form class="formulario-contato" action="https://formsubmit.co/luizagomes10082009@gmail.com" method="post">
+        <div class="grupo-form">
+          <label for="nome">Nome completo:</label>
+          <input type="text" id="nome" name="nome" required="">
+        </div>
+  
+        <div class="grupo-form">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required="">
+        </div>
+  
+  
+        <div class="grupo-form">
+          <label>deseja receber atualizações sobre nosso site?</label>
+          <input type="radio" name="genero" value="sim"> sim
+          <input type="radio" name="genero" value="nao"> não
+        </div>
+  
+        <div class="grupo-form">
+          <label>Quais seriam as críticas?</label>
+          <input type="checkbox" name="critica[]" value="informações erradas"> informações no site erradas  
+          <input type="checkbox" name="critica[]" value="conteudo antigo"> Conteúdo antigo
+          <input type="checkbox" name="critica[]" value="sugestao"> sugestão sobre conteúdo
+          <input type="checkbox" name="critica[]" value="outro"> outro 
+        </div>
+  
+        
+        <div class="grupo-form">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="20"></textarea>
+        </div>
+  
+        <div class="grupo-form centraliza">
+          <button type="submit" class="btn">Enviar</button>
+          <input type="hidden" name="_captcha" value="false"> 
+          <input type="hidden" name="_next" value="https://luizagomes1008.github.io/site.novo/enviadosucesso.html">       
+          <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>             
+        </div>
+    </form>
     
-<script src="js/bootstrap.bundle.js"></script>
 </body>
-</html>
