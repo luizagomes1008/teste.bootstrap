@@ -1,4 +1,5 @@
 # sitecurriculo_tumab
-https://luizagomes1008/teste.bootstrap/index.html
+https://luizagomes1008.github.io/teste.bootstrap/
+
 
 
