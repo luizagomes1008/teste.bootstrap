@@ -1,9 +1,20 @@
+.color1 {color: #212427;}
+.color2 {color: #364341;}
+.color3 {color: #555f63;}
+.color4 {color: #7b8e90;}
+.color5 {color: #adcbc9;}
+
+body{
+   background-color: #adcbc9;
+
+}
 .logo{
-    width: 10%;
+    width: 30%;
+    margin-left: 25px;
 }
 
 .fundomenu{
-    background-color: #96b9da ;
+    background-color:#7b8e90;
 }
 
 .minhafonte{
@@ -21,7 +32,7 @@
     padding-bottom: 70px;
 }
 .formulario-contato {
-    background-color: #fff;
+    background-color: #555f63;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
@@ -31,32 +42,35 @@
     color: #000000;
 }
 .tit{
-    font-style: oblique;
+  font-family:Trattatello, fantasy	 ;
+  background-color: #e3faf8;
+  
     margin-top: 100px;
-    margin-bottom: 50px;
-    color: #476179;
+    margin-bottom: 0px;
+    color: #364341;
     padding-top: 15px;
     padding-bottom: 15px;
-    border: #79a8e6;
+    border: #555f63;
     border-style: dashed;
+    margin-left: 100px;
+    margin-right: 100px;
     
 }
 .formulario {
   padding: 2em;
-  background-color: #76a7cf;
-  color: #2a3f4d;
+  background-color: #7b8e90;
+  color: #000000;
   max-width: 700px;
   margin: 2em auto;
   border-radius: 10px;
-  border: 2px solid #263955;
+  border: 2px solid #364341;
   font-family: cursive;
 }
 
 .formulario h2 {
-  font-family: cursive;
-  font-size: 1.5em; 
+font-family:Trattatello, fantasy	 ;  font-size: 1.5em; 
   margin-bottom: 1em;
-  color: #2c3f52;
+  color: #000000;
   text-align: center;
 }
 
@@ -76,7 +90,7 @@
   height: 40px;
   padding: 0.5em;
   margin-top: 0.3em;
-  border: 1px solid #223147;
+  border: 1px solid #364341;
   border-radius: 5px;
   font-size: 15px;
   font-family: inherit;
@@ -100,8 +114,8 @@
 }
 
 .formulario button {
-  background-color: #588ab9;
-  color: #30384e;
+  background-color: #212427;
+  color: #adcbc9;
   margin-top: 1.5em;
   border: none;
   cursor: pointer;
@@ -110,40 +124,52 @@
 }
 
 .formulario button:hover {
-  background-color: #9bb6e7;
+  background-color: #364341;
 }
 .env{
     font-style: oblique;
-    background-color:#96b9da;
+    background-color:#555f63;
     margin-bottom: 150px;
-    color: #ffffff;
+    color: #adcbc9;
     padding-top: 15px;
     padding-bottom: 15px;
-    border: #30425a;
+    border: #364341;
     border-style: dashed;
 
 }
 .lui{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 40%;
+   
+    
 
+}
+.luiz{
+    width: 80%;
+
+}
+.accordion{
+
+  margin-top: 60px;
 }
 .sobremimtxtt{
   margin-left: 100px;
   margin-right: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #96b9da;
+  background-color: #7b8e90;
+  color: #364341;
   font-size: large;
-  font-style: oblique;
+  font-family: Andale Mono, monospace		;
 }
 
 .sobremimtxt{
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #96b9da;
+    background-color: #7b8e90;
+    color: #364341;
     font-size: 1.4em;
-    font-style: oblique;
+    font-family: Andale Mono, monospace		;
 }
 #galeria .container{
   display: flex;
@@ -158,33 +184,35 @@
   border-radius: 3px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  border: 4px inset #4d6b86;
+  border: 4px inset #364341;
 }
 #galeria img:hover{
   transform: scale(1.05);
 }
 
 .tit2{
-    font-style: oblique;
-    margin-top: 20px;
+font-family:Trattatello, fantasy	 ;    margin-top: 20px;
+background-color: #e3faf8;
     margin-bottom: 50px;
-    color: #476179;
+    color: #364341;
     padding-top: 15px;
     padding-bottom: 15px;
-    border: #79a8e6;
+    border: #555f63;
     border-style: dashed;
-    margin-left: 60px;
-    margin-right: 60px;
-    
+    margin-left: 100px;
+    margin-right: 100px;
+
+
 }
 .tit3{
-  font-style: oblique;
+  font-family:Trattatello, fantasy	 ;
+  background-color: #e3faf8;
   margin-top: 100px;
   margin-bottom: 50px;
-  color: #476179;
+  color: #364341;
   padding-top: 15px;
   padding-bottom: 15px;
-  border: #79a8e6;
+  border: #555f63;
   border-style: dashed;
   margin-left: 100px;
   margin-right: 100px;
@@ -192,28 +220,52 @@
 }
 
 .foot{
+  margin-top: 60px;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 1.2;
-    color: #314964;
-    background-color: #96b9da;
+    color: #e3faf8;;
+    background-color: #555f63;
+}
+.card{
+  margin-top: 70px;
+
 }
 .txtcard{
     font-size: 1.8em;
-    background-color: #82baee;
-    color: #30425a;
+    background-color: #7b8e90;
+    color: #364341;
     font-style: oblique;
+    font-family: Andale Mono, monospace		;
 }
 .card-text{
     font-size: 1.4em;
+    font-family: Andale Mono, monospace		;
 
 }
+.card-title{
+  font-style:unset;
+  font-family: Chalkduster, fantasy		;
+}
+
+.red{
+  width: 40%;
+}
+.btn{
+  columns: auto;
+  margin-left: 30%;
+}
+.btn-primary{
+  background-color: #364341;
+  color: #adcbc9;
+  border-color: #212427;
+}
 .cardz{
-  font-style: oblique;
-  font-size: 1.3em;
-    background-color: #c5d9e9;
+  font-family: Andale Mono, monospace		;
+  font-size: 1.2em;
+    background-color: #7b8e90;
     border-style: dashed;
-    border-color: #30425a;
+    border-color: #364341;
     width: 500px;
     height: 300px;
 }
@@ -227,4 +279,48 @@
 .carousel-inner{
   width: 100%;
   height: 100%;
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #364341;
+    text-decoration: none;
+    background-color: #adcbc9;
+    border: 0;
+    transition: color 0.15s 
+ease-in-out, background-color 0.15s 
+ease-in-out, border-color 0.15s 
+ease-in-out;
+}
+
+.accordion {
+    --bs-accordion-color: #1d1e1f;
+    --bs-accordion-bg: #555f63;
+    --bs-accordion-transition: color 0.15s 
+ease-in-out, background-color 0.15s 
+ease-in-out, border-color 0.15s 
+ease-in-out, box-shadow 0.15s 
+ease-in-out, border-radius 0.15s 
+ease;
+    --bs-accordion-border-color:  var(--bs-border-color);
+    --bs-accordion-border-width: var(--bs-border-width);
+    --bs-accordion-border-radius: var(--bs-border-radius);
+    --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-accordion-btn-padding-x: 1.25rem;
+    --bs-accordion-btn-padding-y: 1rem;
+    --bs-accordion-btn-color: #1d1e1f;
+    --bs-accordion-btn-bg: #7b8e90;
+    --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23212529' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
+    --bs-accordion-btn-icon-width: 1.25rem;
+    --bs-accordion-btn-icon-transform: rotate(-180deg);
+    --bs-accordion-btn-icon-transition: transform 0.2s 
+ease-in-out;
+    --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23052c65' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #adcbc9(13, 110, 253, 0.25);
+    --bs-accordion-body-padding-x: 1.25rem;
+    --bs-accordion-body-padding-y: 1rem;
+    --bs-accordion-active-color: var(--bs-primary-text-emphasis);
+    --bs-accordion-active-bg: var(--bs-primary-bg-subtle);
 }
